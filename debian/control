@@ -1,0 +1,22 @@
+Source: look-like-scanned
+Maintainer: "Matthias Urlichs" <matthias@urlichs.de>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python3-setuptools, python3-all, debhelper (>= 13),
+  debhelper-compat (= 13), 
+  python3-poetry-core,
+Standards-Version: 3.9.6
+Homepage: https://navchandar.github.io/look-like-scanned/
+
+Package: python3-look-like-scanned
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends},
+Description: Python script to make documents look like they were scanned.
+  # look-like-scanned
+  .
+  [![Pylint](https://github.com/navchandar/look-like-scanned/actions/workflows/pylint.yml/badge.svg)](https://github.com/navchandar/look-like-scanned/actions/workflows/pylint.yml) [![PyTest](https://github.com/navchandar/look-like-scanned/actions/workflows/tests.yml/badge.svg)](https://github.com/navchandar/look-like-scanned/actions/workflows/tests.yml)
+  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
+  [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/navchandar/look-like-scanned/issues)
+  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+  .
+
