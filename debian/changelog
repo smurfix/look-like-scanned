@@ -1,3 +1,9 @@
+look-like-scanned (1.2.0-2) unstable; urgency=medium
+
+  * gitignore fix
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Mon, 27 Apr 2026 17:15:19 +0200
+
 look-like-scanned (1.2.0-1) unstable; urgency=medium
 
   * Initial Debianization.
