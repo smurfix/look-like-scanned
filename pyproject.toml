@@ -8,7 +8,7 @@ homepage = "https://navchandar.github.io/look-like-scanned/"
 readme = "README.md"
 keywords = ["pdf", "scan", "scanner", "image-to-pdf", "pdf-to-scan", "convert-pdf"]
 packages = [
-    { include = "scanner" },
+    { include = "look_like_scanned" },
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -46,7 +46,7 @@ black = "^26.1.0"
 pytest = "^9.0.2"
 
 [tool.poetry.scripts]
-scanner = "scanner.scanner:main"
+look_like_scanned = "look_like_scanned.scanner:main"
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/navchandar/look-like-scanned/issues"
